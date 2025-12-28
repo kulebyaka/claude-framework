@@ -1,0 +1,23 @@
+{
+  "env": {
+    "CLAUDE_ADO_ORG": "your-org",
+    "CLAUDE_ADO_PROJECT": "Your Project",
+    "CLAUDE_ADO_BASE_URL": "https://dev.azure.com/your-org/Your%20Project",
+
+    "CLAUDE_GITHUB_WORKFLOW_FILE": "build.yml",
+    "CLAUDE_GITHUB_REVIEWERS": "",
+
+    "CLAUDE_GIT_BASE_BRANCH": "dev",
+    "CLAUDE_GIT_DEPLOY_BRANCH": "main",
+    "CLAUDE_GIT_FEATURE_PREFIX": "feature/",
+    "CLAUDE_COMMIT_PREFIX": "",
+
+    "CLAUDE_CONTEXT_FILE": "llm-context/current ticket.md",
+
+    "CLAUDE_NTFY_TOPIC": "",
+    "CLAUDE_NOTIFY_IDLE_THRESHOLD": "30",
+
+    "CLAUDE_DEFAULT_ENVIRONMENT": "QA02",
+    "CLAUDE_ENVIRONMENTS": "QA01,QA02,QA05,UAT,Staging,Prod"
+  }
+}
